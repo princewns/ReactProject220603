@@ -30,7 +30,7 @@ const LayOut = () => {
               <Nav>
                 <NavLink className='nav-link' to='/loginform'>Login</NavLink>
               </Nav>
-            )};
+            )}
         </Container>
       </Navbar>
       <main className='m-5'>

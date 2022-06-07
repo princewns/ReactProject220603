@@ -25,6 +25,8 @@ const ProductionDisplay = ({product}) => {
           아래는 product값 상관없이 전체값 들고옴*/
           data.state.comments.map(
             (comment) => (<li key={comment.id}>
+            <div id="img_box" style={{ width : '50px', height : '50px', backgroundSize : 'cover', 
+            backgroundImage : `url(${comment.img})` }}></div>
             {comment.user} : {comment.text}
           </li>))}
         </Card.Footer>
